@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EightyPlus — Privacy Policy</title>
+    <style>
+        :root { --bg: #0f172a; --card: #1e293b; --text: #e2e8f0; --muted: #94a3b8; --accent: #3b82f6; --border: #334155; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; padding: 0 16px; }
+        .container { max-width: 720px; margin: 0 auto; padding: 48px 0 80px; }
+        .header { text-align: center; margin-bottom: 48px; }
+        .header h1 { font-size: 2rem; font-weight: 700; margin-bottom: 8px; }
+        .header p { color: var(--muted); font-size: 0.95rem; }
+        .badge { display: inline-block; background: var(--accent); color: #fff; font-size: 0.75rem; font-weight: 600; padding: 2px 10px; border-radius: 12px; margin-bottom: 12px; }
+        section { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 28px; margin-bottom: 20px; }
+        section h2 { font-size: 1.15rem; font-weight: 600; margin-bottom: 16px; color: var(--accent); }
+        section h3 { font-size: 1rem; font-weight: 600; margin: 16px 0 8px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 6px; color: var(--text); }
+        .highlight { background: #1a3a2a; border-color: #22c55e33; }
+        .highlight h2 { color: #4ade80; }
+        table { width: 100%; border-collapse: collapse; margin-top: 12px; }
+        th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); font-size: 0.9rem; }
+        th { color: var(--muted); font-weight: 500; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+        .footer { text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); }
+        .footer a { color: var(--accent); text-decoration: none; }
+        a { color: var(--accent); }
+        @media (max-width: 480px) { .container { padding: 24px 0 40px; } section { padding: 20px; } }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <div class="badge">EightyPlus</div>
+        <h1>Privacy Policy</h1>
+        <p>Last updated: April 8, 2026</p>
+    </div>
+
+    <section>
+        <h2>1. Overview</h2>
+        <p>EightyPlus ("the App") is an AI-powered financial news briefing app developed by SandClaw. We are committed to protecting your privacy. This policy explains what data we collect and how we use it.</p>
+        <p style="margin-top:12px"><strong>Key principle:</strong> All personal data stays on your device. We do not operate user accounts or collect personal information on our servers.</p>
+    </section>
+
+    <section class="highlight">
+        <h2>2. Data We Do NOT Collect</h2>
+        <ul>
+            <li><strong>No account system</strong> — no name, email, phone number, or password</li>
+            <li><strong>No reading history</strong> — your news reading activity is never sent to any server</li>
+            <li><strong>No AI analysis data</strong> — all AI processing runs on-device (Gemma 4 E2B), never uploaded</li>
+            <li><strong>No bookmarks/saved data</strong> — stored locally on your device only (SQLite)</li>
+            <li><strong>No location data</strong> — the App does not request location permissions</li>
+            <li><strong>No contacts, camera, microphone, or other sensitive permissions</strong></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>3. Data We Collect</h2>
+        <table>
+            <thead>
+                <tr><th>Data</th><th>Purpose</th><th>Collected By</th><th>Who</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Advertising ID</td>
+                    <td>Personalized ads (Free users only)</td>
+                    <td>Google AdMob SDK</td>
+                    <td>Free users</td>
+                </tr>
+                <tr>
+                    <td>Device info (model, OS)</td>
+                    <td>Ad optimization & crash reporting</td>
+                    <td>Google AdMob SDK</td>
+                    <td>Free users</td>
+                </tr>
+                <tr>
+                    <td>Purchase status</td>
+                    <td>PRO subscription verification</td>
+                    <td>Google Play Billing</td>
+                    <td>PRO users</td>
+                </tr>
+            </tbody>
+        </table>
+        <p style="margin-top:16px"><strong>PRO subscribers:</strong> No advertising data is collected. Ads are completely removed.</p>
+    </section>
+
+    <section>
+        <h2>4. Advertising (Google AdMob)</h2>
+        <ul>
+            <li>Free users see banner ads powered by Google AdMob</li>
+            <li>PRO subscribers see no ads (all ad SDKs are inactive)</li>
+            <li>AdMob may collect device identifiers for ad personalization</li>
+            <li>You can opt out of personalized ads in your device settings (Google Settings → Ads)</li>
+        </ul>
+
+        <h3>EU/EEA Users (GDPR)</h3>
+        <ul>
+            <li>A consent dialog is shown before any ad data is collected</li>
+            <li>You may withdraw consent at any time via <strong>Settings → Privacy & Ads → Manage ad consent</strong></li>
+            <li>Without consent, ads may still appear but will not be personalized</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>5. Data Storage</h2>
+        <table>
+            <thead>
+                <tr><th>Data</th><th>Location</th><th>Retention</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>App settings, bookmarks, AI memories</td>
+                    <td>Device only (SQLite)</td>
+                    <td>Until you delete the app or clear data</td>
+                </tr>
+                <tr>
+                    <td>News content</td>
+                    <td>Supabase cloud (no personal data)</td>
+                    <td>Rolling 30 days</td>
+                </tr>
+                <tr>
+                    <td>Translation models</td>
+                    <td>Device only (ML Kit)</td>
+                    <td>Until you delete the app</td>
+                </tr>
+                <tr>
+                    <td>AI model (Gemma 4 E2B)</td>
+                    <td>Device only</td>
+                    <td>Until you delete via Settings</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>6. Third-Party Services</h2>
+        <table>
+            <thead>
+                <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Google AdMob</td>
+                    <td>Advertising (Free users)</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy</a></td>
+                </tr>
+                <tr>
+                    <td>Google Play Billing</td>
+                    <td>PRO subscription</td>
+                    <td><a href="https://policies.google.com/privacy" target="_blank">Google Privacy</a></td>
+                </tr>
+                <tr>
+                    <td>Google ML Kit</td>
+                    <td>On-device translation</td>
+                    <td>No data sent to Google</td>
+                </tr>
+                <tr>
+                    <td>Supabase</td>
+                    <td>News data API</td>
+                    <td><a href="https://supabase.com/privacy" target="_blank">Supabase Privacy</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>7. Children's Privacy</h2>
+        <p>EightyPlus is not directed at children under 13. We do not knowingly collect data from children. If you believe a child has provided data through the App, please contact us.</p>
+    </section>
+
+    <section>
+        <h2>8. Your Rights</h2>
+        <ul>
+            <li><strong>Access & Deletion:</strong> All your data is on your device — uninstall the app to delete everything</li>
+            <li><strong>Ad consent withdrawal:</strong> Settings → Privacy & Ads → Manage ad consent</li>
+            <li><strong>Ad personalization opt-out:</strong> Device Settings → Google → Ads → Opt out</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>9. Changes to This Policy</h2>
+        <p>We may update this policy as we add features. Material changes will be notified via an in-app notice. The "Last updated" date at the top reflects the most recent revision.</p>
+    </section>
+
+    <section>
+        <h2>10. Contact</h2>
+        <p>For privacy-related questions or concerns:</p>
+        <ul>
+            <li>Email: <a href="mailto:privacy@algoballoon.com">privacy@algoballoon.com</a></li>
+            <li>Developer: SandClaw</li>
+            <li>Website: <a href="https://algoballoon.com" target="_blank">algoballoon.com</a></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>11. Financial Disclaimer</h2>
+        <p>EightyPlus provides news briefings and AI-generated analysis for informational purposes only. Nothing in the App constitutes financial, investment, or trading advice. Always consult a qualified financial advisor before making investment decisions.</p>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2026 SandClaw. All rights reserved.</p>
+        <p style="margin-top:8px"><a href="https://algoballoon.com">AlgoBalloon</a> · <a href="https://github.com/kokogo100">GitHub</a></p>
+    </div>
+</div>
+</body>
+</html>
